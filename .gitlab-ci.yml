@@ -1,14 +1,8 @@
 stages:
- - build
  - test
-
-build_job:
-  stage: build
-  script:
-  - npm install -g bower
-  - bower install
 
 test_job:
   stage: test
+  image: mist/polymer-cli
   script:
   - polymer test
