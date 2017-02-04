@@ -1,10 +1,16 @@
 {
   "name": "mist-password",
-  "version" : "1.0.0",
+  "version" : "1.0.1",
   "authors": [
     "Dimitris Moraitis"
   ],
-  "description": "Password input field with reveal button and strength ind",
+  "description": "Password input field with reveal button and strength indicator",
+  "keywords": [
+    "web-component",
+    "password",
+    "polymer",
+    "zxcvbn"
+  ],
   "main": "mist-password.html",
   "dependencies": {
     "polymer": "Polymer/polymer#2.0-preview",
