@@ -1,6 +1,6 @@
 {
   "name": "mist-password",
-  "version" : "1.0.2",
+  "version" : "1.0.3",
   "authors": [
     "Dimitris Moraitis"
   ],
@@ -13,19 +13,18 @@
   ],
   "main": "mist-password.html",
   "dependencies": {
-    "polymer": "Polymer/polymer#2.0-preview",
+    "polymer": "Polymer/polymer#^2.0.0",
     "zxcvbn": "^4.4.1",
-    "paper-input": "2.0-preview",
-    "paper-icon-button": "2.0-preview"
+    "paper-input": "^2.0.0",
+    "paper-icon-button": "^2.0.0"
   },
   "devDependencies": {
-    "iron-component-page": "PolymerElements/iron-component-page#2.0-preview",
-    "iron-demo-helpers": "PolymerElements/iron-demo-helpers#2.0-preview",
+    "iron-component-page": "PolymerElements/iron-component-page#^2.0.0",
+    "iron-demo-helpers": "PolymerElements/iron-demo-helpers#^2.0.0",
     "web-component-tester": "^4.0.0",
     "webcomponentsjs": "webcomponents/webcomponentsjs#v1"
   },
   "resolutions": {
-    "webcomponentsjs": "v1",
-    "polymer": "2.0-preview"
+    "webcomponentsjs": "v1"
   }
 }
