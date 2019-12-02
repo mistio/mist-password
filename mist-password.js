@@ -109,7 +109,7 @@ class MistPassword extends PolymerElement {
   validate () {
     var result = zxcvbn(this.value);
     this.$.strengthMeter.value = result.score;
-    if (result.score > this.minStrengthre)
+    if (result.score > this.minStrength)
       return true;
     return false;
   }
